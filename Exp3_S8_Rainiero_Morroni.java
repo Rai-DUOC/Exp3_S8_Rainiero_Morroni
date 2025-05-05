@@ -453,7 +453,7 @@ public class Exp3_S8_Rainiero_Morroni {
                                 int AsientoAnular = (sectorAnulado - 1) * 5 + (asientoAnulado - 1); //Calculo de indice en el array asientosReservados.
                                 if (AsientoAnular >= 0 && AsientoAnular < asientosReservados.length) {
                                     asientosReservados[AsientoAnular] = false; // Logica para liberar asiento
-                                    System.out.println("Asiento " + asientoAnulado + "del  Sector " + sectorAnulado + ", ahora está disponible.");
+                                    System.out.println("El asiento " + asientoAnulado + " del  Sector " + sectorAnulado + ", ahora esta disponible.");
                                 } else {
                                     System.out.println("Ingrese un asiento valido (1-5):");
                                 }
